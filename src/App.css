@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+/* body{
+  background-color: #0b1736;
+} */
+*{padding: 0;margin: 0;}
+h1,h2,h3,h4,h5,h6,p{
+  color:#36383b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.insert_link{
+  background-color:#0b1736;
+}
+.insert_link form div{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.insert_link form input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+.insert_link form button{
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 25px;
+  background: #2a5bd7;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.insert_link form span{
+  color:red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* nav link */
+
+
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-brand,.navbar-dark .navbar-brand:hover{
+  color:#36383b;
+}
+/* .navbar-dark .navbar-nav .nav-link{
+  font-size: 18px;
+} */
+.navbar-dark .navbar-brand{
+  font-size: 30px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#436edc;
+}
+
+/* description area */
+
+.description_area h1{
+  color: #252628;
+  font-family: "ProximaNova ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 56px;
+}
+.description_area p{
+  color: #56575b;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+  .insert_link form div{
+    width: 400px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 768px){
+  .insert_link form div{
+    width: 100%;
   }
 }
