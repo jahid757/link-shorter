@@ -64,7 +64,7 @@ const CreateLink = () => {
           placeholder="Custom URL Name"
           {...register("urlName", { required: true })}
         />
-        {errors.urlName && <span>This field is required</span>}
+        {errors.urlName && <span>URL name is required</span>}
         </div>
 
         <div>
@@ -72,7 +72,7 @@ const CreateLink = () => {
           placeholder="Shorten Your Link"
           {...register("url", { required: true })}
         />
-        {errors.url && <span>This field is required</span>}
+        {errors.url && <span>URL is required</span>}
         </div>
 
         <button type="submit">Shorten</button>
