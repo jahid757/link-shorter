@@ -6,7 +6,7 @@ const Home = () => {
   const [linkData, setLinkData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/link/get", {
+    fetch("https://still-savannah-83715.herokuapp.com/link/get", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

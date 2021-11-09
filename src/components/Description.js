@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-// import img from '../assets/images/left.png'
 import img from '../assets/images/undraw_share_link_qtxe.svg'
 const Description = () => {
     return (

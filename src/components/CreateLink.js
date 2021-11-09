@@ -17,7 +17,7 @@ const CreateLink = () => {
 
     uploadData === true ?
 
-    fetch('http://localhost:5000/link/find',{
+    fetch('https://still-savannah-83715.herokuapp.com/link/find',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -33,7 +33,7 @@ const CreateLink = () => {
 
     :
 
-    fetch("http://localhost:5000/link/insert", {
+    fetch("https://still-savannah-83715.herokuapp.com/link/insert", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
