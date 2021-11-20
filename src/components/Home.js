@@ -22,7 +22,7 @@ const Home = () => {
   } else {
     return (
       <div>
-        <h1>Link not found</h1>
+        <h1 className="error_text">Link not found</h1>
       </div>
     );
   }
